@@ -1,0 +1,6 @@
+new_tx: |
+  <b>%provider%</b>
+  %icon% <code>%description%</code>: %currency_prefix%<b>%amount%</b>%currency_suffix%
+  Comission: %currency_prefix%<b>%comission%</b>%currency_suffix%
+  Cashback: %currency_prefix%<b>%cashback%</b>%currency_suffix%
+  Rest balance: %currency_prefix%<b>%rest_balance%</b>%currency_suffix%

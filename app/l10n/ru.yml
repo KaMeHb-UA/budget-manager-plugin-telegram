@@ -1,0 +1,6 @@
+new_tx: |
+  <b>%provider%</b>
+  %icon% <code>%description%</code>: %currency_prefix%<b>%amount%</b>%currency_suffix%
+  Комиссия: %currency_prefix%<b>%comission%</b>%currency_suffix%
+  Кешбэк: %currency_prefix%<b>%cashback%</b>%currency_suffix%
+  Остаток на балансе: %currency_prefix%<b>%rest_balance%</b>%currency_suffix%
