@@ -17,7 +17,8 @@ function fixHTML(rawText){
 }
 
 function processTpl(text, args){
-    for(const name in args) text.replaceAll(`%${name}%`, fixHTML(args[name]));
+    for(const name in args) text = text.replaceAll(`%${name}%`, fixHTML(args[name] + ''));
+    return text;
 }
 
 export default (phrase, args) => {
